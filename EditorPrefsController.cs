@@ -9,7 +9,7 @@ namespace boites_de_dialogues
 {
 	public partial class EditorPrefsController : NSViewController
 	{
-		/*#region Application Access
+		#region Application Access
 		public static AppDelegate App {
 			get { return (AppDelegate)NSApplication.SharedApplication.Delegate; }
 		}
@@ -26,6 +26,6 @@ namespace boites_de_dialogues
 		public EditorPrefsController (IntPtr handle) : base (handle)
 		{
 		}
-		#endregion*/
+		#endregion
 	}
 }

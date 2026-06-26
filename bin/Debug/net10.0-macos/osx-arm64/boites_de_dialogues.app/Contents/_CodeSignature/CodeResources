@@ -12,17 +12,21 @@
 		<data>
 		Ktpmriwe3GL4rVNqpzc/J8FC9bQ=
 		</data>
+		<key>Resources/Main.storyboardc/2yL-5L-mSH-view-WGS-6R-EOM.nib</key>
+		<data>
+		rpWTRuq6H1OBBEQPLyZU81y/9cA=
+		</data>
 		<key>Resources/Main.storyboardc/E82-9d-hOQ-view-AKu-9o-Ahk.nib</key>
 		<data>
 		Xl3863sPTka58dIDOY2f2HqPNeU=
 		</data>
 		<key>Resources/Main.storyboardc/Info.plist</key>
 		<data>
-		TI2MYbPotit1cWswgh+4DBtp6m4=
+		GQ/r7hcm/ZXGwf+nlOrGMCaLVJw=
 		</data>
 		<key>Resources/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		M8SjCllmbzgcE6JFjP33x4wPR9Q=
+		V95xV8s27w82U8UfIb412Ao4gdU=
 		</data>
 		<key>Resources/Main.storyboardc/NSViewController-E82-9d-hOQ.nib</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Resources/Main.storyboardc/NSViewController-Rwi-dZ-OJB.nib</key>
 		<data>
-		Z0h8HoR2vrFUlKAHpGyxKI3zRJI=
+		huX3X9taeN0Kveekd8kot1LVY4c=
 		</data>
 		<key>Resources/Main.storyboardc/NSViewController-UPV-yB-ZXO.nib</key>
 		<data>
@@ -42,15 +46,15 @@
 		</data>
 		<key>Resources/Main.storyboardc/NSViewController-qN1-6N-Fh5.nib</key>
 		<data>
-		n4qBC+QKj49fx/4QREjs6kMmYIU=
+		cV/3tee1s/U8Foxn3axHXeLfgsY=
 		</data>
 		<key>Resources/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<data>
-		/Xtc3eDgETusyzHDRYPs/3qwseE=
+		AMSpSgTxZ+/HkH/H6d3V1K21xa0=
 		</data>
 		<key>Resources/Main.storyboardc/NSWindowController-DOH-Be-8kB.nib</key>
 		<data>
-		NbJAI7+jTSREfa31F0c5JskhTo0=
+		vzxZMc0zXzvD5LWDdrCvy53toyI=
 		</data>
 		<key>Resources/Main.storyboardc/Rwi-dZ-OJB-view-LDc-du-8dh.nib</key>
 		<data>
@@ -1291,14 +1295,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OFNwiy8Ev8ERzoOfHzXTi6QiU/n26F6bSttdXpIzsi4=
+			FvXGmUnGCl2sS/gzHOgNHiJG7SXWILnxceah08VhdBc=
 			</data>
 		</dict>
 		<key>MonoBundle/boites_de_dialogues.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7OS6co2HnbJ9VAhlfqc37dMHtAu6vOBKNLGNqQjtxd4=
+			H6oMGAVuYIZTcQaHDOSPzCzdpQFJx1ufmPNkNpvsQis=
 			</data>
 		</dict>
 		<key>MonoBundle/libSystem.Globalization.Native.dylib</key>
@@ -1427,6 +1431,13 @@
 			LkRlGVXwFr8/ikNrE7497vEBqUW+u8vvpS7D+QxU4BY=
 			</data>
 		</dict>
+		<key>Resources/Main.storyboardc/2yL-5L-mSH-view-WGS-6R-EOM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MPeCRpSW4LO1+EE4EvRojlwOFGQGc+KRRx3nxSEGbN8=
+			</data>
+		</dict>
 		<key>Resources/Main.storyboardc/E82-9d-hOQ-view-AKu-9o-Ahk.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1438,14 +1449,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vUG15T62Y9pk3e8F91bhTJeHjcU6dC2Oa8cOaDve5Y4=
+			2qPF2aCpsqSJzTUyAJ5y8eSSst24VBHd8JkNQUL/nmo=
 			</data>
 		</dict>
 		<key>Resources/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eT/jKyQpt7UdQbt4aKpoxWrth3fPITQG5e8Cn6W5GfE=
+			d5eFhPt56R0Z+/ndlv8XgqvEuhaswaMIP3i4MBcgvpc=
 			</data>
 		</dict>
 		<key>Resources/Main.storyboardc/NSViewController-E82-9d-hOQ.nib</key>
@@ -1459,7 +1470,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGh1UJ3z58yaLDSOCJwWOxwM1vAHvOPxmdFEn/OeDxc=
+			w0tpgtYNyAa4K2ickXZ/NNYDdhnLMUSgVfimqPyAlTg=
 			</data>
 		</dict>
 		<key>Resources/Main.storyboardc/NSViewController-UPV-yB-ZXO.nib</key>
@@ -1480,21 +1491,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CR3lgA7eed5i3xbyA37hagsLcqiJsTIn+Tt93n6Rvg4=
+			jFWHdPGrnoM+qIbZbJecgHQGPYhA//9UEGs/5NGsIFw=
 			</data>
 		</dict>
 		<key>Resources/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u10/btftdAovJYpP0Q5dhrdPYfDufC9Z7ekgQ0ezl2g=
+			haE7xB0PBMlOv9kA431SOf9wA7+Edv5dZZwo6i+CzS0=
 			</data>
 		</dict>
 		<key>Resources/Main.storyboardc/NSWindowController-DOH-Be-8kB.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CD8stTi6dFyz2kLyzHc1nP3aRC4oJxGRqxx2W/+LNr4=
+			Rff3apQMWxmyee/llf3fV9Mvq8+W06GjbhiAC43QT84=
 			</data>
 		</dict>
 		<key>Resources/Main.storyboardc/Rwi-dZ-OJB-view-LDc-du-8dh.nib</key>

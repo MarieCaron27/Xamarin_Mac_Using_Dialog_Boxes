@@ -1072,6 +1072,9 @@ DQ
                             <outlet property="delegate" destination="DOH-Be-8kB" id="KEt-Np-N7e"/>
                         </connections>
                     </window>
+                    <connections>
+                        <segue destination="2yL-5L-mSH" kind="relationship" relationship="window.shadowedContentViewController" id="xra-JF-pM6"/>
+                    </connections>
                 </windowController>
                 <customObject id="RMX-N5-77F" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1203,7 +1206,7 @@ DQ
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8Fy-id-lD6"/>
+        <segue reference="2Yi-dH-jW0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="check" width="225" height="225"/>

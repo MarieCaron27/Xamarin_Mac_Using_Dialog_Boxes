@@ -23,36 +23,6 @@
 				<integer>9</integer>
 			</dict>
 		</array>
-		<key>2yL-5L-mSH</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>2yL-5L-mSH</string>
-				</array>
-				<key>message</key>
-				<string>“Editor Prefs Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
-				<key>type</key>
-				<string>IBIssueTypeUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-		<key>DOH-Be-8kB</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>DOH-Be-8kB</string>
-				</array>
-				<key>message</key>
-				<string>Window Controller requires a content view controller.</string>
-				<key>type</key>
-				<string>IBIssueTypeUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
 		<key>E82-9d-hOQ</key>
 		<array>
 			<dict>
