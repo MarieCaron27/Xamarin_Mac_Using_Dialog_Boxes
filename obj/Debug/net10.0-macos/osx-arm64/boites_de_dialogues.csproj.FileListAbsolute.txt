@@ -220,3 +220,4 @@
 /Users/marie/RiderProjects/boites_de_dialogues/boites_de_dialogues/obj/Debug/net10.0-macos/osx-arm64/boites_de_dialogues.pdb
 /Users/marie/RiderProjects/boites_de_dialogues/boites_de_dialogues/obj/Debug/net10.0-macos/osx-arm64/boites_de_dialogues.genruntimeconfig.cache
 /Users/marie/RiderProjects/boites_de_dialogues/boites_de_dialogues/obj/Debug/net10.0-macos/osx-arm64/ref/boites_de_dialogues.dll
+/Users/marie/RiderProjects/boites_de_dialogues/boites_de_dialogues/obj/Debug/net10.0-macos/osx-arm64/boites_de_dialogues.sourcelink.json

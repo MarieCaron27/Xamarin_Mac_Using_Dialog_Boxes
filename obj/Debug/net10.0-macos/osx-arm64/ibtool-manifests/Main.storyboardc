@@ -7,37 +7,6 @@
 	<key>com.apple.ibtool.document.notices</key>
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
-	<dict>
-		<key>DOH-Be-8kB</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>DOH-Be-8kB</string>
-				</array>
-				<key>message</key>
-				<string>“Window Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
-				<key>type</key>
-				<string>IBIssueTypeUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-		<key>E82-9d-hOQ</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>E82-9d-hOQ</string>
-				</array>
-				<key>message</key>
-				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
-				<key>type</key>
-				<string>IBIssueTypeUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-	</dict>
+	<dict/>
 </dict>
 </plist>

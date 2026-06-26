@@ -23,7 +23,11 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
+                                            <connections>
+                                                <segue destination="DOH-Be-8kB" kind="show" id="Mk3-o9-be4"/>
+                                            </connections>
+                                        </menuItem>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
                                         <menuItem title="Services" id="NMo-om-nkz">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -840,6 +844,28 @@ DQ
                         </view>
                         <toolbar key="toolbar" implicitIdentifier="061C4AB4-C0BC-472B-8167-E86592DA08F4" autosavesConfiguration="NO" showsBaselineSeparator="NO" displayMode="iconAndLabel" sizeMode="regular" id="9M9-Is-ATR">
                             <allowedToolbarItems>
+                                <toolbarItem implicitItemIdentifier="AFC454E0-AAFD-48BA-93E8-8017E71EE985" explicitItemIdentifier="KeyPad" label="KeyPad" paletteLabel="KeyPad" tag="-1" image="check" bordered="YES" title="KeyPad" id="add-he-a34">
+                                    <size key="minSize" width="285" height="235"/>
+                                    <size key="maxSize" width="285" height="235"/>
+                                    <connections>
+                                        <segue destination="E82-9d-hOQ" kind="custom" customClass="ReplaceViewSeque" id="afJ-1l-n9X"/>
+                                    </connections>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="79C88DD4-4EB6-4A2A-AC55-7F82487E3A41" explicitItemIdentifier="Profile" label="Profile" paletteLabel="Profile" tag="-1" image="check" bordered="YES" title="Profile" id="FVJ-VE-44M">
+                                    <size key="minSize" width="278" height="235"/>
+                                    <size key="maxSize" width="278" height="235"/>
+                                    <connections>
+                                        <segue destination="gpi-jr-YTQ" kind="custom" customClass="ReplaceViewSeque" id="XgU-dZ-SME"/>
+                                    </connections>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="7B7F3D95-58B0-4296-9D25-CD7097EB5111" explicitItemIdentifier="Telecom" label="Telecom" paletteLabel="Telecom" tag="-1" image="check" bordered="YES" title="Telecom" id="oT3-Vv-CmV">
+                                    <size key="minSize" width="290" height="235"/>
+                                    <size key="maxSize" width="290" height="235"/>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="65BBF82B-29D8-4767-9501-166E8C292D25" explicitItemIdentifier="Voip" label="Voip" paletteLabel="Voip" tag="-1" image="check" bordered="YES" title="Voip" id="8Y6-5c-ult">
+                                    <size key="minSize" width="266" height="235"/>
+                                    <size key="maxSize" width="266" height="235"/>
+                                </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="68n-Xy-5lp"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="ufK-3B-NSS"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="lk2-fg-JF4"/>
@@ -847,10 +873,10 @@ DQ
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="CQJ-Gf-NP4"/>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
-                                <toolbarItem reference="68n-Xy-5lp"/>
-                                <toolbarItem reference="ufK-3B-NSS"/>
-                                <toolbarItem reference="CQJ-Gf-NP4"/>
-                                <toolbarItem reference="lk2-fg-JF4"/>
+                                <toolbarItem reference="FVJ-VE-44M"/>
+                                <toolbarItem reference="add-he-a34"/>
+                                <toolbarItem reference="oT3-Vv-CmV"/>
+                                <toolbarItem reference="8Y6-5c-ult"/>
                             </defaultToolbarItems>
                         </toolbar>
                         <connections>
@@ -984,6 +1010,9 @@ DQ
             <point key="canvasLocation" x="727" y="655.5"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XgU-dZ-SME"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="check" width="225" height="225"/>
     </resources>

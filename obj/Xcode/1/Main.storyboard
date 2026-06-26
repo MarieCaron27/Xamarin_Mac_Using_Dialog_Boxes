@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="25084" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment version="120000" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24765"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="25084"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,7 +23,11 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
+                                            <connections>
+                                                <segue destination="DOH-Be-8kB" kind="show" id="Mk3-o9-be4"/>
+                                            </connections>
+                                        </menuItem>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
                                         <menuItem title="Services" id="NMo-om-nkz">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -747,7 +751,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="638" height="101"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2qR-bF-zOa">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2qR-bF-zOa">
                                 <rect key="frame" x="18" y="65" width="66" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Username" id="OQf-lD-Sey">
@@ -756,7 +760,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zx0-F5-xY5">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zx0-F5-xY5">
                                 <rect key="frame" x="18" y="20" width="63" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Password" id="uxp-Fn-hYS">
@@ -765,7 +769,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lNX-ox-HnW">
+                            <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lNX-ox-HnW">
                                 <rect key="frame" x="90" y="57" width="340" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="jC3-yV-aOB">
@@ -774,7 +778,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k4i-78-WF0">
+                            <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k4i-78-WF0">
                                 <rect key="frame" x="90" y="16" width="340" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="Eht-ci-bMb">
@@ -840,6 +844,28 @@ DQ
                         </view>
                         <toolbar key="toolbar" implicitIdentifier="061C4AB4-C0BC-472B-8167-E86592DA08F4" autosavesConfiguration="NO" showsBaselineSeparator="NO" displayMode="iconAndLabel" sizeMode="regular" id="9M9-Is-ATR">
                             <allowedToolbarItems>
+                                <toolbarItem implicitItemIdentifier="AFC454E0-AAFD-48BA-93E8-8017E71EE985" explicitItemIdentifier="KeyPad" label="KeyPad" paletteLabel="KeyPad" tag="-1" image="check" bordered="YES" title="KeyPad" id="add-he-a34">
+                                    <size key="minSize" width="285" height="235"/>
+                                    <size key="maxSize" width="285" height="235"/>
+                                    <connections>
+                                        <segue destination="E82-9d-hOQ" kind="custom" customClass="ReplaceViewSeque" id="afJ-1l-n9X"/>
+                                    </connections>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="79C88DD4-4EB6-4A2A-AC55-7F82487E3A41" explicitItemIdentifier="Profile" label="Profile" paletteLabel="Profile" tag="-1" image="check" bordered="YES" title="Profile" id="FVJ-VE-44M">
+                                    <size key="minSize" width="278" height="235"/>
+                                    <size key="maxSize" width="278" height="235"/>
+                                    <connections>
+                                        <segue destination="gpi-jr-YTQ" kind="custom" customClass="ReplaceViewSeque" id="XgU-dZ-SME"/>
+                                    </connections>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="7B7F3D95-58B0-4296-9D25-CD7097EB5111" explicitItemIdentifier="Telecom" label="Telecom" paletteLabel="Telecom" tag="-1" image="check" bordered="YES" title="Telecom" id="oT3-Vv-CmV">
+                                    <size key="minSize" width="290" height="235"/>
+                                    <size key="maxSize" width="290" height="235"/>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="65BBF82B-29D8-4767-9501-166E8C292D25" explicitItemIdentifier="Voip" label="Voip" paletteLabel="Voip" tag="-1" image="check" bordered="YES" title="Voip" id="8Y6-5c-ult">
+                                    <size key="minSize" width="266" height="235"/>
+                                    <size key="maxSize" width="266" height="235"/>
+                                </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="68n-Xy-5lp"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="ufK-3B-NSS"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="lk2-fg-JF4"/>
@@ -847,10 +873,10 @@ DQ
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="CQJ-Gf-NP4"/>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
-                                <toolbarItem reference="68n-Xy-5lp"/>
-                                <toolbarItem reference="ufK-3B-NSS"/>
-                                <toolbarItem reference="CQJ-Gf-NP4"/>
-                                <toolbarItem reference="lk2-fg-JF4"/>
+                                <toolbarItem reference="FVJ-VE-44M"/>
+                                <toolbarItem reference="add-he-a34"/>
+                                <toolbarItem reference="oT3-Vv-CmV"/>
+                                <toolbarItem reference="8Y6-5c-ult"/>
                             </defaultToolbarItems>
                         </toolbar>
                         <connections>
@@ -873,7 +899,7 @@ DQ
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cMV-pY-zvc">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cMV-pY-zvc">
                                 <rect key="frame" x="219" y="127" width="43" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Profile" id="dTf-tN-42f">
@@ -897,7 +923,7 @@ DQ
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPf-YL-HMW">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPf-YL-HMW">
                                 <rect key="frame" x="219" y="127" width="50" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Keypad" id="LMI-Ji-oUf">
@@ -921,7 +947,7 @@ DQ
                         <rect key="frame" x="0.0" y="0.0" width="638" height="101"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="feJ-Yz-6Zb">
+                            <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="feJ-Yz-6Zb">
                                 <rect key="frame" x="20" y="57" width="410" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Title" drawsBackground="YES" id="AqQ-QF-HMW">
@@ -930,7 +956,7 @@ DQ
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVh-8k-uKO">
+                            <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVh-8k-uKO">
                                 <rect key="frame" x="20" y="16" width="410" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Description" drawsBackground="YES" id="S1N-3B-jEq">
@@ -947,7 +973,7 @@ DQ
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="BtnCANCEL:" target="qN1-6N-Fh5" id="9Lk-Uc-a4U"/>
+                                    <action selector="BtnCANCEL:" target="qN1-6N-Fh5" id="lBI-0x-6C9"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aCt-Qu-UZ6">
@@ -961,7 +987,7 @@ DQ
 </string>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="BtnOK:" target="qN1-6N-Fh5" id="dze-4c-aqa"/>
+                                    <action selector="BtnOK:" target="qN1-6N-Fh5" id="afm-HT-5Jx"/>
                                 </connections>
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zGU-7K-hCq">
@@ -972,7 +998,10 @@ DQ
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="DescriptionTextFiled" destination="jVh-8k-uKO" id="hya-MF-GId"/>
+                        <outlet property="MyImage" destination="zGU-7K-hCq" id="bGN-j1-rVo"/>
                         <outlet property="PasswordTxtField" destination="jVh-8k-uKO" id="I6c-fW-YeK"/>
+                        <outlet property="TitleTxtField" destination="feJ-Yz-6Zb" id="VnT-gm-uJU"/>
                         <outlet property="UsernameTxtFiled" destination="feJ-Yz-6Zb" id="WVa-YR-ZdX"/>
                     </connections>
                 </viewController>
@@ -981,6 +1010,9 @@ DQ
             <point key="canvasLocation" x="727" y="655.5"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XgU-dZ-SME"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="check" width="225" height="225"/>
     </resources>

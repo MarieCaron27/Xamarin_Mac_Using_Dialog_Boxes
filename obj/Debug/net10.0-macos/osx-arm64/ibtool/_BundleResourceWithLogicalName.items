@@ -19,6 +19,18 @@
       <LogicalName>Main.storyboardc/NSViewController-Rwi-dZ-OJB.nib</LogicalName>
       <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/NSViewController-E82-9d-hOQ.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/NSViewController-E82-9d-hOQ.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/NSWindowController-DOH-Be-8kB.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/NSWindowController-DOH-Be-8kB.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/MainMenu.nib">
       <Optimize>false</Optimize>
       <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
@@ -37,10 +49,28 @@
       <LogicalName>Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</LogicalName>
       <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/gpi-jr-YTQ-view-gTv-s1-0MX.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/gpi-jr-YTQ-view-gTv-s1-0MX.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/Rwi-dZ-OJB-view-LDc-du-8dh.nib">
       <Optimize>false</Optimize>
       <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
       <LogicalName>Main.storyboardc/Rwi-dZ-OJB-view-LDc-du-8dh.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/NSViewController-gpi-jr-YTQ.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/NSViewController-gpi-jr-YTQ.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/E82-9d-hOQ-view-AKu-9o-Ahk.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/E82-9d-hOQ-view-AKu-9o-Ahk.nib</LogicalName>
       <OriginalItemSpec>obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/Debug/net10.0-macos/osx-arm64/ibtool/Main.storyboardc/Info.plist">
