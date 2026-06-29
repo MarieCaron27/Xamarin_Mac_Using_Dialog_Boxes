@@ -10,6 +10,23 @@ public partial class ViewController : NSViewController
         // Do not put any initialization here, use ViewDidLoad instead.
     }
     
+    public override void ViewDidLoad ()
+    {
+        base.ViewDidLoad ();
+
+        // Configure editor from user preferences
+        ConfigureEditor ();
+    }
+    
+    public void ConfigureEditor()
+    {
+        TextEditor.AutomaticLinkDetectionEnabled =
+            App.Preferences.SmartLinks;
+
+        TextEditor.AutomaticQuoteSubstitutionEnabled =
+            App.Preferences.SmartQuotes;
+    }
+    
     public override void PrepareForSegue (NSStoryboardSegue segue, NSObject sender)
     {
         base.PrepareForSegue (segue, sender);

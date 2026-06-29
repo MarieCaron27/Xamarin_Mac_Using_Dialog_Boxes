@@ -90,5 +90,6 @@ namespace boites_de_dialogues
                 this.SheetCanceled (this, EventArgs.Empty);
         }
         #endregion
+        
 	}
 }

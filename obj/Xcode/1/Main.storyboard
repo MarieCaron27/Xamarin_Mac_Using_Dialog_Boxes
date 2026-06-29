@@ -59,6 +59,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="UseRichTextBtn:" target="2yL-5L-mSH" id="x2p-19-GwN"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="6Oe-PU-1au"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rOj-v2-bwp">
@@ -70,6 +71,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="AllowGraphicsBtn:" target="2yL-5L-mSH" id="Xji-2e-zM7"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="q6w-bu-CSz"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g1l-H9-p7E">
@@ -81,6 +83,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="CanEditImageBtn:" target="2yL-5L-mSH" id="50O-Pz-dRD"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="nbM-SH-Jgt"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NqY-QO-uhn">
@@ -92,6 +95,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="WrapSelectionBtn:" target="2yL-5L-mSH" id="TRS-XD-PgT"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="s2a-cv-2oJ"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ed1-K8-Nrn">
@@ -103,6 +107,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="NonContiniousLayoutBtn:" target="2yL-5L-mSH" id="OaV-EL-agW"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="GE9-xM-wcr"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sfj-bo-aAJ">
@@ -114,6 +119,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="SelectWrapAfterBtn:" target="2yL-5L-mSH" id="qAy-dk-vnC"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="zor-wa-F5X"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mob-fe-N4A">
@@ -125,6 +131,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="CanChangeBackgroundColorBtn:" target="2yL-5L-mSH" id="KT9-dj-RGL"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="j3e-D9-P6g"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWo-IZ-MKB">
@@ -136,6 +143,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="RomanCharactersOnlyBtn:" target="2yL-5L-mSH" id="OC5-Mn-Mhb"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="RDG-aH-QhH"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e7H-SI-0hR">
@@ -147,6 +155,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="UseFrontPanelBtn:" target="2yL-5L-mSH" id="swx-xZ-OzP"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="1xj-2i-pbe"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9rD-cA-sEH">
@@ -158,6 +167,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="UseRulerBtn:" target="2yL-5L-mSH" id="aVV-Cu-0AG"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="jb7-J6-Eik"/>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ee-fc-ak1">
@@ -169,6 +179,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="AutoCloseBtn:" target="2yL-5L-mSH" id="i8Y-XJ-9k6"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="WIw-b4-X7p"/>
                                 </connections>
                             </button>
                             <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hWM-Qq-Jqt">
@@ -185,6 +196,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="UseInspectorBarBtn:" target="2yL-5L-mSH" id="9pJ-jZ-UzU"/>
+                                    <binding destination="2yL-5L-mSH" name="value" keyPath="self.Preferences.SmartLinks" id="SSc-e0-XQW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -198,8 +210,9 @@
                     </connections>
                 </viewController>
                 <customObject id="aZk-jM-5WU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController representsSharedInstance="YES" id="Vxz-05-WaO"/>
             </objects>
-            <point key="canvasLocation" x="-5" y="-428"/>
+            <point key="canvasLocation" x="1009" y="1012"/>
         </scene>
         <!--Application-->
         <scene sceneID="JPo-4y-FX3">
@@ -1072,9 +1085,6 @@ DQ
                             <outlet property="delegate" destination="DOH-Be-8kB" id="KEt-Np-N7e"/>
                         </connections>
                     </window>
-                    <connections>
-                        <segue destination="2yL-5L-mSH" kind="relationship" relationship="window.shadowedContentViewController" id="xra-JF-pM6"/>
-                    </connections>
                 </windowController>
                 <customObject id="RMX-N5-77F" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

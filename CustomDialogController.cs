@@ -48,7 +48,7 @@ namespace boites_de_dialogues
             DescriptionTextFiled.StringValue = DialogDescription;
         }
         #endregion
-
+        
         #region Private Methods
         private void CloseDialog() {
             Presentor.DismissViewController (this);

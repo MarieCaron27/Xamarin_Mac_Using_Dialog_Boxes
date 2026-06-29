@@ -1072,9 +1072,6 @@ DQ
                             <outlet property="delegate" destination="DOH-Be-8kB" id="KEt-Np-N7e"/>
                         </connections>
                     </window>
-                    <connections>
-                        <segue destination="2yL-5L-mSH" kind="relationship" relationship="window.shadowedContentViewController" id="xra-JF-pM6"/>
-                    </connections>
                 </windowController>
                 <customObject id="RMX-N5-77F" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

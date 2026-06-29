@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("boites_de_dialogues")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1843ded89a10dfca9c12095b15e3061c60aad9e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+276c8314563539c35ef6702853c7f749014af6c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("boites_de_dialogues")]
 [assembly: System.Reflection.AssemblyTitleAttribute("boites_de_dialogues")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
